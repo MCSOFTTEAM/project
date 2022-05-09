@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: space-between;
+        /* justify-content는 main axis (수평)
+           align-items는 cross axis (수직)  */
+        align-items: center;
+        height: 100vh;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: cadetblue;
+        width: 300px;
+        height: 300px;
+        margin-right: 10px;
+        font-size: 28px;
+        color: rgba(146, 146, 62, 0.534);
+      }
+      #second {
+        background-color: chartreuse;
+      }
+    </style>
+  </head>
+  <body>
+    <div>1</div>
+    <div id="second">2</div>
+    <div>3</div>
+  </body>
+</html>
